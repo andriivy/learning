@@ -16,12 +16,10 @@ public class Piramida {
     public static void main(String[] args) {
         int[] x = new int[8];
         int i;
-        int y = 1;
         String LineOfPiramid = "";
 
         for (i = 0; i < x.length; i++) {
-            x[i] = y;
-            y++;
+            x[i] = i + 1;
             LineOfPiramid = x[i] + " " + LineOfPiramid;
             System.out.println(LineOfPiramid);
         }
