@@ -14,13 +14,11 @@ package com.company;
 public class Piramida {
 
     public static void main(String[] args) {
-        int[] x = new int[8];
         int i;
         String LineOfPiramid = "";
 
-        for (i = 0; i < x.length; i++) {
-            x[i] = i + 1;
-            LineOfPiramid = x[i] + " " + LineOfPiramid;
+        for (i = 1; i < 9; i++) {
+            LineOfPiramid = i + " " + LineOfPiramid;
             System.out.println(LineOfPiramid);
         }
     }
